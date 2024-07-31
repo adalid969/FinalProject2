@@ -1,0 +1,132 @@
+/* Style for body*/
+body {
+
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+/* Style for header*/
+header {
+    background-color:midnightblue;
+    color: #fff;
+    padding: 10px 0;
+}
+/* Style for header container using flex*/
+header .container {
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 5px;
+    font-family: Elephant, sans-serif;
+    font-size: 35px;
+}
+/*Style for Game Boy*/
+section h2{
+    margin: 5px;
+    font-family: Jokerman, sans-serif;
+    font-size: 35px;
+    color: darkred;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.product {
+    width: 90%;
+    margin: 0 auto;
+}
+/*Style for the products details img*/
+.product-details img{
+    width: 20%;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.product-info {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.variations {
+    margin-top: 20px;
+}
+
+.variation {
+    display: flex;
+    align-items: end;
+    padding: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.variation img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.variation:last-child {
+    border-bottom: none;
+}
+
+.variation h3 {
+    margin: 10px 10px 20px;
+}
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: xx-large;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+footer {
+    background-color: midnightblue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .container {
+    width: 90%;
+    margin: 0 auto;
+}
